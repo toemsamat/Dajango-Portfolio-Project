@@ -31,7 +31,7 @@ STATIC_DIR.mkdir(parents=True, exist_ok=True)
 # Security
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'my-portfolio-nd1f.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'myportfolio-bf48.onrender.com']
 
 # Applications
 INSTALLED_APPS = [
